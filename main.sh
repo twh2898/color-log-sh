@@ -15,4 +15,7 @@ echo_section "Searchign AUR for updates..."
 echo_task "Looking at AUR..."
 echo_step "Missing AUR Packages: ${CYAN}eclipse-java-bin"
 echo_step_warn "Flagged Out Of Date AUR Package: ${CYAN}snapd"
+echo_item 1 3 "Item One"
+echo_item 2 3 "Item Two"
+echo_item 3 3 "Item Three"
 

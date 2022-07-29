@@ -114,3 +114,13 @@ echo_step_warn() {
     echo_task "${YELLOW}" "$1"
 }
 
+echo_item() {
+    # useage: echo_item <i> <n> <text>
+    # output: "($i/$n) $text"
+    local i n text
+    i="$1"
+    n="$2"
+    text="$3"
+    echo "($i/$n) $text"
+}
+
