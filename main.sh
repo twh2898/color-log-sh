@@ -19,3 +19,8 @@ echo_item 1 3 "Item One"
 echo_item 2 3 "Item Two"
 echo_item 3 3 "Item Three"
 
+echo_task "Showing progress"
+for (( i=0; i<100; i+=10 )); do
+    echo_progress $i "Task $i"
+done
+

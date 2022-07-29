@@ -124,3 +124,10 @@ echo_item() {
     echo "($i/$n) $text"
 }
 
+echo_progress() {
+    # usage: echo_progress <percent> <text>
+    # output: "[${3:percent}%] $text"
+    printf '[%3s%%] %s' "$1" "$2"
+    echo "${RESET}"
+}
+
